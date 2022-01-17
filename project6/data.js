@@ -1,0 +1,33 @@
+const data = [
+    {
+        "specialty":"Python",
+        "name":"Francois",
+        "image":"https://images.pexels.com/photos/3560044/pexels-photo-3560044.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    },
+    {
+        "specialty":"Jave",
+        "name":"Francois",
+        "image":"https://images.pexels.com/photos/1995730/pexels-photo-1995730.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    },
+    {
+        "specialty":"Javascript",
+        "name":"Francois",
+        "image":"https://images.pexels.com/photos/1761279/pexels-photo-1761279.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    },
+    {
+        "specialty":"Solidity",
+        "name":"Francois",
+        "image":"https://images.pexels.com/photos/2469122/pexels-photo-2469122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    },
+    {
+        "specialty":"CSS",
+        "name":"Francois",
+        "image":"https://images.pexels.com/photos/3214944/pexels-photo-3214944.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    },
+    {
+        "specialty":"HTML",
+        "name":"Francois",
+        "image":"https://images.pexels.com/photos/3265460/pexels-photo-3265460.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    },
+    
+]
