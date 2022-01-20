@@ -15,9 +15,9 @@ const Signup = ()=><h1>Sign Up</h1>
 function App() {
   return (
     <Router >
-      <NavBar />
-      <Route exact path='/' render={() =>{
-        return <Home title="hello" />}}/>
+      <Route path='/' component={NavBar} />
+      <Route exact path='/' render={(props) =>{
+        return <Home title="hello" history={props.history} match={props.match}/>}}/>
       <Route exact path='/host' component={Host}/>
       <Route path='/help' component={Help}/>
       <Route exact path='/signup' component={Signup}/>
