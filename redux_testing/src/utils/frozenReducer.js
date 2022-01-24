@@ -21,7 +21,11 @@ export default (state = seedData, action) => {
         }
         
         return newState;
-    } else {
+    } else if (action.type === "clearInventory"){
+        return [];
+    } 
+    
+    else {
         return state;
     }
     

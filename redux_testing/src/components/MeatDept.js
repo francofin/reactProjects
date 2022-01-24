@@ -2,15 +2,17 @@ import React, {Component} from "react";
 import {connect} from 'react-redux';
 import updateMeat from '../actions/meatInvUpdate';
 import {bindActionCreators} from 'redux';
+
+
 class MeatDept extends Component{
 
     // constructor(){
     //     super();
     // }
 
-    increment = (operation , index) => {
-        console.log(updateMeat(operation, index));
-        this.props.updateMeat(operation, index);
+    increment = (qChange , index) => {
+        console.log(updateMeat(qChange, index));
+        this.props.updateMeat(qChange, index);
 
     }
 
@@ -20,8 +22,8 @@ class MeatDept extends Component{
             return (
                 <div key={i}>
                     <li>{item.food}: {item.quantity}</li>
-                    <input onClick={()=> {this.increment("+", i)}} type="button" value="+"/>
-                    <input onClick={()=> {this.increment("-", i)}} type="button" value="-"/>
+                    <input onClick={()=> {this.increment(1, i)}} type="button" value="+"/>
+                    <input onClick={()=> {this.increment(-1, i)}} type="button" value="-"/>
                 </div>
                 )
             })

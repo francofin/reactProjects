@@ -8,6 +8,7 @@ const rootReducer = combineReducers({
     frozen: frozenReducer,
     produce: produceReducer,
     meat: meatReducer,
+
 })
 
 

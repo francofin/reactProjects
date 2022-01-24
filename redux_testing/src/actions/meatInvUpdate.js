@@ -1,9 +1,9 @@
-export default (operation, index) => {
-    console.log(operation, index);
+export default (qChange, index) => {
+    console.log(qChange, index);
     return {
         type: 'updateMeat', 
         payload: {
-            operation, 
+            qChange, 
             index
         }
     }

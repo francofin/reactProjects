@@ -1,0 +1,15 @@
+.home{
+    padding: 0px !important;
+}
+
+.home .upper-fold{
+    height: 100vh !important;
+    background-image: url('https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+}
+
+
+.lower-fold{
+    padding-left:80px;
+    padding-right:80px;
+}

@@ -12,14 +12,20 @@ const seedData = [
     if(action.type === 'updateMeat') {
         console.log("I care what just happened");
         const newState = [...state];
-        if(action.payload.operation === "+"){
-            newState[action.payload.index].quantity++
-        } else if(action.payload.operation === "-"){
-            newState[action.payload.index].quantity--
-        }
+        const payload = action.payload;
+        newState[payload.index].quantity += payload.qChange;
+        // if(action.payload.operation === "+"){
+        //     newState[action.payload.index].quantity++
+        // } else if(action.payload.operation === "-"){
+        //     newState[action.payload.index].quantity--
+        // }
         
         return newState;
-    } else {
+    } else if (action.type === "clearInventory"){
+        return [];
+    } 
+    
+    else {
         return state;
     }
  }
