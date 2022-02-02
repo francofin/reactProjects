@@ -5,11 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import FormPractice from './FormPractice';
 import Calculator from './temperatureApp/Calculator';
+import WeatherApp from './WeatherApp';
 
 ReactDOM.render(
   <React.StrictMode>
     <Calculator />
     <FormPractice />
+    <WeatherApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
